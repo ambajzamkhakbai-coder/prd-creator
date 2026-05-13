@@ -11,7 +11,10 @@
 - 📋 **Structured Requirements** - Say goodbye to vague requirements and broken logic
 - 🔄 **Step-by-Step Confirmation** - Strict confirmation at each step ensures quality
 - 📄 **Three-Stage Output** - Requirements Logic → UI/Interaction Design → PRD.md
-- 📊 **Mermaid Visualization** - Flowcharts and state diagrams for clearer documentation
+- 🎯 **Auto P0/P1/P2 Priority Tagging** - Heuristic priority labels with rationale, user can review and adjust each one
+- 🗺️ **Module Sitemap ASCII** - Per-module ASCII tree diagrams that make single-module structure instantly readable
+- 🎬 **Core User Scenario Flowcharts** - Automatically identifies 2-4 core scenarios and generates end-to-end Mermaid flowcharts
+- 📊 **Mermaid Visualization** - Global navigation, state diagrams, and scenario flowcharts for clearer documentation
 - 🎯 **Complete PRD Structure** - Professional-grade PRD document format
 
 ---
@@ -81,14 +84,14 @@ Help me write a PRD for a community group-buying mini-program with core features
 
 ### Step 1: Requirements Logic Discussion
 
-1. **Scope Definition** - Define MVP feature boundaries and priorities
+1. **Scope & Priority Tagging** - Define MVP feature boundaries; auto-assign P0 (core loop essential) / P1 (significant UX impact) / P2 (nice-to-have) priorities with rationale; output a priority overview for user review and adjustment
 2. **Module Logic Definition** - Discuss requirements logic module by module (one at a time)
 3. **Output**: `RequirementsLogic.md`
 
 ### Step 2: UI + Interaction Design
 
-1. **Page Structure & Navigation** - List pages, draw navigation flowcharts
-2. **UI & Interaction Design** - Discuss interaction design for core pages
+1. **Page Structure & Navigation** - List pages, draw the global Mermaid navigation flowchart, and produce per-module sitemap ASCII trees
+2. **UI & Interaction Design** - Discuss interaction design and per-page ASCII layouts for core pages; auto-identify 2-4 core user scenarios and generate end-to-end Mermaid flowcharts that span modules and pages
 3. **Output**: `UIInteractionDesign.md`
 
 ### Step 3: Generate Final PRD
