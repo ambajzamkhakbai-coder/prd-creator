@@ -155,7 +155,7 @@ prd-creator/
 - **Architecture Pattern**: Complete Workflow Type (Pattern E)
 - **Freedom Level**: Medium - Strict process framework, flexible content
 - **Trigger Mechanism**: Keywords + Active Selection
-- **Tool Support**: AskUserQuestion, Write, Read, SearchCodebase, WebSearch
+- **Tool Support**: AskUserQuestion, Write, Read
 
 ---
 

@@ -152,7 +152,7 @@ prd-creator/
 - **架构模式**: 完整工作流型（模式 E）
 - **自由度**: 中自由度 - 流程框架严格，内容灵活调整
 - **触发机制**: 关键词 + 主动选择
-- **工具支持**: AskUserQuestion, Write, Read, SearchCodebase, WebSearch
+- **工具支持**: AskUserQuestion, Write, Read
 
 ---
 
